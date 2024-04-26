@@ -1,0 +1,28 @@
+./
+    jsconfig.json
+    index.html
+    vite.config.js
+    README.md
+    .gitignore
+    package-lock.json
+    package.json
+public/
+    favicon.ico
+.vscode/
+    settings.json
+    extensions.json
+src/
+    App.vue
+    .DS_Store
+    main.js
+    components/
+        HelloWorld.vue
+    views/
+        AboutView.vue
+        HomeView.vue
+    assets/
+        main.css
+        logo.svg
+        base.css
+    router/
+        index.js

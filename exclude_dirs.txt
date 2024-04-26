@@ -1,0 +1,33 @@
+# exclude_dirs.txt
+#
+# Utilisez ce fichier pour lister les dossiers et fichiers à exclure de l'arborescence du projet.
+# Chaque entrée doit être sur une nouvelle ligne.
+#
+# FORMAT DES ENTRÉES :
+# - Pour exclure un dossier et son contenu, ajoutez le nom du dossier suivi d'un slash ("/").
+# - Pour exclure un fichier spécifique, ajoutez simplement le nom du fichier.
+#
+# COMMENTAIRES :
+# - Utilisez "#" pour ajouter des commentaires. Les lignes commençant par "#" seront ignorées.
+#
+# EXEMPLES :
+# Pour exclure un dossier nommé 'myenv' et tous ses sous-dossiers, écrivez :
+myenv/
+#
+# Pour exclure le dossier 'program' uniquement à la racine du projet, écrivez :
+/program/
+#
+# Pour exclure un fichier spécifique nommé 'tree.txt', écrivez :
+tree.txt
+#
+# Pour exclure un sous-dossier 'enfant' dans un dossier 'dossier', écrivez :
+dossier/enfant/
+#
+# Assurez-vous que les chemins sont corrects par rapport à la racine du projet.
+#
+# Ajoutez ci-dessous vos exclusions spécifiques :
+myenv
+program
+exclude_dirs.txt
+.git
+node_modules
